@@ -32,7 +32,5 @@ applications/sample/camera/screensaver
 
 C++11版本或以上
 
-## 相关仓<a name="section16511040154318"></a>
 
-hmf/applications/camera\_screensaver\_app
 
