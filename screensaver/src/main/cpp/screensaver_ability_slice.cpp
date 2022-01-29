@@ -23,11 +23,11 @@ namespace {
     int16_t screenHeight = static_cast<int16_t>(Screen::GetInstance().GetHeight());
 }
 static ImageAnimatorInfo g_imageAnimatorInfo[IMAGE_TOTEL_NUM] = {
-    {IMG_DEFAULT_001_PATH, {0, 0}, screenWidth, screenHeight},
-    {IMG_DEFAULT_002_PATH, {0, 0}, screenWidth, screenHeight},
-    {IMG_DEFAULT_003_PATH, {0, 0}, screenWidth, screenHeight},
-    {IMG_DEFAULT_004_PATH, {0, 0}, screenWidth, screenHeight},
-    {IMG_DEFAULT_005_PATH, {0, 0}, screenWidth, screenHeight},
+    {{IMG_DEFAULT_001_PATH}, {0, 0}, screenWidth, screenHeight, IMG_SRC_FILE_PATH},
+    {{IMG_DEFAULT_002_PATH}, {0, 0}, screenWidth, screenHeight, IMG_SRC_FILE_PATH},
+    {{IMG_DEFAULT_003_PATH}, {0, 0}, screenWidth, screenHeight, IMG_SRC_FILE_PATH},
+    {{IMG_DEFAULT_004_PATH}, {0, 0}, screenWidth, screenHeight, IMG_SRC_FILE_PATH},
+    {{IMG_DEFAULT_005_PATH}, {0, 0}, screenWidth, screenHeight, IMG_SRC_FILE_PATH},
 };
 
 ScreensaverAbilitySlice::~ScreensaverAbilitySlice()
