@@ -1,0 +1,40 @@
+{
+    "name": "@ohos/applications_camera_screensaver_app",
+    "version": "",
+    "description": "providing the screen saver capability",
+    "homePage": "https://gitee.com/openharmony",
+    "license": "Apache V2",
+    "repository": "https://gitee.com/openharmony/applications_camera_screensaver_app",
+    "publishAs": "code-segment",
+    "scripts": {},
+    "tags": [
+        "applications"
+    ],
+    "keywords": [
+        "applications",
+        "camera",
+        "screensaver",
+        "app"
+    ],
+    "segment": {
+        "destPath": "applications/sample/camera/screensaver"
+    },
+    "component": {
+        "name": "screensaver",
+        "subsystem": "",
+        "syscap": [],
+        "features": [],
+        "adated_system_type": [],
+        "rom": "",
+        "ram": "",
+        "deps": {
+            "components": [],
+            "third_party": []
+        },
+        "build": {
+            "sub_component": [],
+            "inner_kits": [],
+            "test": []
+        }
+    }
+}
