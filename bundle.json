@@ -29,7 +29,6 @@
                 "graphic_utils",
                 "kv_store",
                 "syspara_lite",
-                "ipc_lite",
                 "samgr_lite",
                 "utils_base"
             ],
