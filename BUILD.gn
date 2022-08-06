@@ -24,10 +24,10 @@ shared_library("screensaver") {
     "${appexecfwk_lite_path}/frameworks/bundle_lite:bundle",
     "//foundation/communication/ipc/interfaces/innerkits/c/ipc:ipc_single",
     "//foundation/distributeddatamgr/kv_store/interfaces/inner_api/kv_store:kv_store",
-    "//foundation/distributedschedule/samgr_lite/samgr:samgr",
     "//foundation/graphic/surface",
     "//foundation/graphic/ui:lite_ui",
     "//foundation/graphic/utils:lite_graphic_utils",
+    "//foundation/systemabilitymgr/samgr_lite/samgr:samgr",
   ]
 
   include_dirs = [
