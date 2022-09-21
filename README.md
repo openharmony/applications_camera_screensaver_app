@@ -7,7 +7,7 @@
 
 ## Introduction<a name="section132119717356"></a>
 
-This repository provides the screen saver capability. You can use it to:
+This repository provides the screen saver capability, as one reference implementation. You can use it to:
 
 -   Play the preset images.
 
@@ -32,3 +32,16 @@ applications/sample/camera/screensaver
 
 C++ 11 or later
 
+## Repositories<a name="section16511040154318"></a>
+
+[Graphic subsystem](https://gitee.com/openharmony/docs/blob/master/en/readme/graphics.md)
+
+**applications_camera_screensaver_app**
+
+[graphic_wms](https://gitee.com/openharmony/graphic_wms/blob/master/README.md)
+
+[graphic_surface](https://gitee.com/openharmony/graphic_surface/blob/master/README.md)
+
+[graphic_ui](https://gitee.com/openharmony/graphic_ui/blob/master/README.md)
+
+[graphic_utils](https://gitee.com/openharmony/graphic_utils/blob/master/README.md)
